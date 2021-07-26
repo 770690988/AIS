@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/menustyle.css">
+    <link rel="stylesheet" href="../iconfont/menu/iconfont.css">
+    <title>学习天地</title>
+</head>
+
+<body>
+
+    <div class="navigation">
+        <ul>
+            <li>
+                <a href="aisintroduce.html">
+                    <span class="iconfont icon-shouye"></span>
+                    <span class="title">AIS社团介绍</span>
+                </a>
+            </li>
+            <li>
+                <a href="xuexitiandi.html">
+                    <span class="iconfont icon-zaixianxuexi"></span>
+                    <span class="title">学习天地</span>
+                </a>
+            </li>
+            <li>
+                <a href="zuoyeshangjiao.html">
+                    <span class="iconfont icon-submit-fill"></span>
+                    <span class="title">作业上交</span>
+                </a>
+            </li>
+            <li>
+                <a href="ceshiqu.html">
+                    <span class="iconfont icon-kaoshitianchong"></span>
+                    <span class="title">测试区</span>
+                </a>
+            </li>
+            <li>
+                <a href="gerenxinxi.html">
+                    <span class="iconfont icon-gerenxinxi"></span>
+                    <span class="title">个人信息</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="iconfont icon-tuichudenglu"></span>
+                    <span class="title">退出登录</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="toggle" onclick="toggleMenu()">
+        <span class="iconfont icon-caidan"></span>
+    </div>
+    <script type="text/javascript">
+        function toggleMenu() {
+            let navigation = document.querySelector('.navigation');
+            let toggle = document.querySelector('.toggle');
+            navigation.classList.toggle('active');
+            toggle.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
