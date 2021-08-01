@@ -8,14 +8,14 @@
 
 body {
     min-height: 100vh;
-    background: #150019;
+    background: #BDD7EE;
 }
 
 .navigation {
     position: fixed;
     width: 60px;
     height: 100%;
-    background: #3e0748;
+    background: #2e0528;
     transition: 0.5s;
     overflow: hidden;
 }
@@ -115,4 +115,13 @@ body {
         left: 0px;
         width: 100%;
     }
+}
+
+.mainText {
+    background: aliceblue;
+    position: relative;
+    top: 0;
+    left: 500px;
+    width: 1000px;
+    height: 2000px;
 }

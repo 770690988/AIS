@@ -10,7 +10,7 @@
     <title>登录界面</title>
 </head>
 <div id="headTitle">
-    <h1>卓越学院AIS社团</h1>
+    <h1>杭电AIS社团</h1>
 </div>
 
 <body>
@@ -21,18 +21,36 @@
         <div class="inputBox">
             <div class="inputText">
                 <span class="iconfont icon-zhanghu"></span>
-                <input type="text" placeholder="Username" />
+                <input type="text" class="zhanghu" placeholder="Username" />
             </div>
             <div class="inputText">
                 <span class="iconfont icon-mima"></span>
                 <input type="password" placeholder="Password" />
             </div>
 
-            <a href="html/aisintroduce.html">
-                <input type="button" class="inputButton" value="LOGIN" herf="html/menu.html" />
+            <a>
+                <input type="submit" class="inputButton" value="LOGIN" herf="html/menu.html" onclick="jyzhanghu()" />
             </a>
         </div>
     </div>
+    <script>
+        function jyzhanghu() {
+            //这里校验输入的账户字符都为数字，其他都不行
+            var reg = /^\d{8}$/;
+            var t1 = document.getElementsByClassName("zhanghu")[0];
+            if (reg.test(t1.value)) {
+                location.href = "html/aisintroduce.html";
+            } else {
+                alert("请输入8位数字的账户！");
+                var t2 = document.getElementsByClassName("inputText")[0];
+                t2.className = "inputText1";
+            }
+        }
+
+        function jymima() {
+
+        }
+    </script>
 </body>
 
 </html>

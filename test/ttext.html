@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>js基础</title>
+
+</head>
+
+<body>
+    <p>一. 用Document对象获得页面标题</p>
+    <hr/>
+    <p>二. 用Document访问一下两个表单</p>
+
+    <p>第一个，文本框的值</p>
+
+    <form name="textform">
+        <input name="textname" type="text" value="请输入文本" />
+    </form>
+    <p>第二个，按钮的值</p>
+
+    <form name="submitform">
+        <input name="submitname" type="submit" value="第一个表单内提交" />
+    </form>
+    <hr/>
+    <p>以下是获取到的值</p>
+    <table border="1" cellspacing="4" cellpadding="2">
+        <tr>
+            <td>获取到本页的标题是 ： </td>
+            <td> <b><script>document.write(document.title)</script></b></td>
+        </tr>
+        <tr>
+            <td>本页包含表单 ： </td>
+            <td><b><script>document.write(document.forms.length)</script></b></td>
+        </tr>
+        <tr>
+            <td>获取到文本框的值 ： </td>
+            <td><b><script>document.write(window.document.textform.textname.value)</script></b></td>
+        </tr>
+        <tr>
+            <td>获取到按钮的值 ： </td>
+            <td><b><script>document.write(window.document.submitform.submitname.value)</script></b></td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
