@@ -7,12 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/menustyle.css">
     <link rel="stylesheet" href="../iconfont/menu/iconfont.css">
-    <title>AIS社团介绍</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <script src="../bootstrap/js/jquery.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <title>AIS首页</title>
 </head>
 
 <body>
-
-
     <div class="navigation">
         <ul>
             <li>
@@ -53,12 +55,23 @@
             </li>
         </ul>
     </div>
+    <div class="container-fluid" style="background-color: #0B173B;">
 
-    <div class="mainText">
+        <div class="col-lg-2">
+        </div>
 
-    </div>
-    <div class="toggle" onclick="toggleMenu()">
-        <span class="iconfont icon-caidan"></span>
+
+        <div class="col-lg-8">
+            <div class="mainText">
+                <div id="headTitle">
+                    <h1>杭电AIS社团简介</h1>
+                </div>
+            </div>
+
+        </div>
+        <div class="toggle" onclick="toggleMenu()">
+            <span class="iconfont icon-caidan"></span>
+        </div>
     </div>
     <script type="text/javascript">
         function toggleMenu() {
