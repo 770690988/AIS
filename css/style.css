@@ -13,7 +13,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(../img/bj.jpg);
+    background-image: url(../source/img/bj.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
