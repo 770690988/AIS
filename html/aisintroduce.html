@@ -65,19 +65,19 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div id="pageTitle" class="col-lg-3 ">
-                        <h3>社团导师介绍</h3>
+                    <div id="pageTitle">
+                        <h3>社团指导教师</h3>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-lg-2 col-lg-offset-2">
+                    <div class="col-lg-4 col-lg-offset-4">
                         <!--轮播图-->
-                        <div id="lbt1" class="carousel slide" data-ride="carousel" data-interval="5000">
+                        <div id="lbt1" class="carousel slide " data-ride="carousel" data-interval="5000">
                             <!--这里的data-interval用于设定轮播的速度数值属性为毫秒-->
 
                             <!--小圆点-->
-                            <ol class="carousel-indicators">
+                            <ol class="carousel-indicators ">
                                 <!--这里面有多少个li就可以放多少个图片，个数不够可以加-->
                                 <li data-target="#lbt1" data-slide-to="0" class="active"></li>
                                 <li data-target="#lbt1" data-slide-to="1"></li>
@@ -86,32 +86,32 @@
                             </ol>
                             <!-- 轮播图图片主体部分 -->
 
-                            <div class="carousel-inner" role="listbox">
+                            <div id="lbt" class="carousel-inner" role="listbox">
                                 <!--第一张图片-->
                                 <div class="item active">
                                     <!--这里因为设置了active所以默认显示的是这张图片-->
-                                    <img src="../source/img/teacherPosts/huhaibing.png" alt="...">
+                                    <img id="laoshiPicture" src="../source/img/teacherPosts/huhaibing.png" alt="...">
                                     <div class="carousel-caption">
-                                        胡海滨老师
+                                        胡海滨：卓越学院党委副书记，杭电助手指导教师，校学工部信息化主要负责人。牵头完成校学生工作系统、“上课啦”教管辅系统，杭电助手平台、疫情防控系统等多项实践项目的设计与实施工作，具备丰富的实践项目指导经历。
                                     </div>
                                 </div>
                                 <!--第二张图片-->
-                                <div class="item ">
-                                    <img src="../source/img/teacherPosts/lvqiuyun.png" alt="...">
+                                <div class="item">
+                                    <img id="laoshiPicture" src="../source/img/teacherPosts/lvqiuyun.png" alt="...">
                                     <div class="carousel-caption">
-                                        吕秋云老师
+                                        吕秋云：原信息安全协会（Vidar team 前身）创立者，2007年至今指导各级各类信息安全相关竞赛、服务外包竞赛、互联网＋竞赛等30余支队伍，获国家级竞赛一等奖1项，二等奖3项，三等奖10项，其他级奖项多项。指导本科生发表SCI检索、EI检索和核心期刊论文5篇。具备丰富的安全类竞赛和本科生科研工作的指导经验。
                                     </div>
                                 </div>
-                                <div class="item ">
-                                    <img src="../source/img/teacherPosts/wangxiaojun.png" alt="...">
+                                <div class="item">
+                                    <img id="laoshiPicture" src="../source/img/teacherPosts/wangxiaojun.png" alt="...">
                                     <div class="carousel-caption">
-                                        王小军老师
+                                        王小军：杭州电子科技大学赛博协会和0RAYS战队指导教师。指导40余支学生队伍参加各级CTF类竞赛，获国家级一等奖3项及二等奖5项、其他各级奖项多项。具备丰富的CTF类竞赛指导经验。
                                     </div>
                                 </div>
-                                <div class="item ">
-                                    <img src="../source/img/teacherPosts/wangzhen.png" alt="...">
-                                    <div class="carousel-caption ">
-                                        王震老师
+                                <div class="item">
+                                    <img id="laoshiPicture" src="../source/img/teacherPosts/wangzhen.png" alt="...">
+                                    <div class="carousel-caption">
+                                        王震：网络空间安全专业负责人，人工智能安全创新实验班负责人，校数学建模组核心指导教师，指导100余支本科和研究生队伍参加数学建模竞赛，获国际级一等奖9项，二等奖39项，国家级一等奖1项，二等奖11项，其他各级奖项多项。指导本科生发表人工智能相关科研论文SCI检索、EI检索和核心期刊论文19篇。具备丰富的数学建模类竞赛和本科生人工智能相关科研工作的指导经验。
                                     </div>
                                 </div>
 
@@ -137,7 +137,7 @@
             </div>
         </div>
     </div>
-    <script type="text/javascript">
+    <script type="text/javascript ">
         function toggleMenu() {
             let navigation = document.querySelector('.navigation');
             let toggle = document.querySelector('.toggle');
