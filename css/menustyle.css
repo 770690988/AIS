@@ -113,7 +113,6 @@ body {
     background: #0B3861;
     position: relative;
     top: 0;
-    height: 2000px;
     border-radius: 20px;
 }
 
@@ -130,9 +129,37 @@ body {
 #pageTitle {
     color: white;
     background-color: black;
+    height: 40px;
     text-align: center;
     margin-left: 20px;
+    margin-right: 20px;
     border-radius: 20px;
+}
+
+#pageContext {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+#pageContextCenter {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+#jianJu20 {
+    background-color: rgb(22, 6, 61);
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
 #lbt1 {
